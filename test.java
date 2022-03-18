@@ -9,6 +9,7 @@ public class test{
         System.out.println("hasil dari method : " + fun());
         System.out.println("branch method slesai");
         checkout();
+        System.out.println("hello world!");
     }
     static void checkout(){
         System.out.println("test chechout");
