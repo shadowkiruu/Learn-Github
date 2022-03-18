@@ -8,6 +8,10 @@ public class test{
         System.out.println("hasil = "+ (a+b+c+d));
         System.out.println("hasil dari method : " + fun());
         System.out.println("branch method slesai");
+        checkout();
+    }
+    static void checkout(){
+        System.out.println("test chechout");
     }
     static int fun(){
         return 30;
